@@ -5,8 +5,8 @@ from azure.ai.projects import AIProjectClient
 from azure.identity import DefaultAzureCredential
 from azure.ai.agents.models import ToolSet
 from dotenv import load_dotenv
-from agent_processor import create_function_tool_for_agent
-from agent_initializer import initialize_agent
+from app.agents.agent_processor import create_function_tool_for_agent
+from app.agents.agent_initializer import initialize_agent
 
 load_dotenv()
 
